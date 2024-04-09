@@ -3,23 +3,29 @@ import Logo from "../../logo.svg";
 import "./Sidebar.css";
 import NavBar, { NavBarItem } from "../NavBar/NavBar";
 
-const Sidebar = () => {
+interface SidebarProps {
+  selectContent: (
+    contentName: "about" | "mySkills" | "work" | "contact"
+  ) => void;
+}
+
+const Sidebar = ({ selectContent }: SidebarProps) => {
   const navItems: NavBarItem[] = [
     {
       label: "About",
-      onClick: () => null,
+      onClick: () => selectContent("about"),
     },
     {
       label: "My Skills",
-      onClick: () => null,
+      onClick: () => selectContent("mySkills"),
     },
     {
       label: "Work",
-      onClick: () => null,
+      onClick: () => selectContent("work"),
     },
     {
       label: "Contact",
-      onClick: () => null,
+      onClick: () => selectContent("contact"),
     },
   ];
   return (
