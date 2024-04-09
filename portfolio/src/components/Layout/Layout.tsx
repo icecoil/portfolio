@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <div className="layout">
       <Sidebar />
-      <MainContent />
+      <MainContent selectedContent="about" />
     </div>
   );
 };
