@@ -1,3 +1,9 @@
 .logo {
   width: 300px;
 }
+
+.sidebar {
+  background-color: darkslategrey;
+  min-height: 100vh;
+  height: 100%;
+}
