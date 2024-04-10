@@ -1,0 +1,7 @@
+.mainContent {
+  background-color: #353535;
+  min-height: 100vh;
+  height: 100%;
+  flex-grow: 1;
+  color: #ffffff;
+}

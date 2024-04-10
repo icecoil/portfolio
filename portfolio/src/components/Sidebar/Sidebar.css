@@ -1,9 +1,10 @@
 .logo {
-  width: 300px;
+  width: 250px;
 }
 
 .sidebar {
-  background-color: darkslategrey;
+  background-color: #252525;
   min-height: 100vh;
   height: 100%;
+  color: #ffffff;
 }
