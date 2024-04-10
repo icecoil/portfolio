@@ -13,8 +13,12 @@ interface NavBarProps {
 const NavBar = ({ items }: NavBarProps) => {
   return (
     <nav className="navigation">
-      {items.map((item) => {
-        return <button onClick={item.onClick}>{item.label}</button>;
+      {items.map((item, indx) => {
+        return (
+          <button key={indx} onClick={item.onClick}>
+            {item.label}
+          </button>
+        );
       })}
     </nav>
   );

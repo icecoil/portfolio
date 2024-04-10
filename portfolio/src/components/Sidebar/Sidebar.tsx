@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../../logo.svg";
 import "./Sidebar.css";
 import NavBar, { NavBarItem } from "../NavBar/NavBar";
 
@@ -30,7 +29,7 @@ const Sidebar = ({ selectContent }: SidebarProps) => {
   ];
   return (
     <div className="sidebar">
-      <img src={Logo} alt="logo" className="logo" />
+      <p className="capitalR">R</p>
       <h3>Rok Krajnc</h3>
       <p>Web Developer</p>
       <NavBar items={navItems} />
