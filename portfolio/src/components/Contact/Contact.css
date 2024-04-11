@@ -4,6 +4,10 @@
   gap: 70px;
 }
 
+.contact a {
+  color: #ffffff;
+}
+
 .contactLinks {
   display: flex;
   justify-content: center;

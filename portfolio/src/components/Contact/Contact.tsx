@@ -16,8 +16,12 @@ const Contact = () => {
         <p>Slovenija</p>
       </div>
       <div>
-        <p>Email: rok.krajnc@mail.com</p>
-        <p>Tel.: +38670675385</p>
+        <p>
+          Email: <a href="mailto: rok.krajnc@mail.com">rok.krajnc@mail.com</a>
+        </p>
+        <p>
+          Tel.: <a href="tel:+38670675385">+38670675385</a>
+        </p>
       </div>
       <div className="contactLinks">
         <a className="euPass">
