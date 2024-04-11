@@ -1,0 +1,28 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.contactLinks {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+}
+
+.contactLinks a {
+  display: inline-block;
+  top: 0px;
+  transition: 0.2s top ease;
+  position: relative;
+}
+
+.contactLinks a:hover {
+  top: -4px;
+}
+
+.contactLinks img {
+  height: 50px;
+  max-height: 50px;
+}
