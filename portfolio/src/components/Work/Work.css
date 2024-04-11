@@ -1,0 +1,47 @@
+h2 {
+  padding-top: 20px;
+  text-align: left;
+}
+
+.upperLvlLi {
+  font-size: 20px;
+  padding: 0;
+  font-weight: 600;
+  list-style-type: disc;
+  list-style-position: outside;
+  text-align: left;
+}
+
+.upperLvlLi ul {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.natoSvLogo {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: end;
+  gap: 20px;
+  align-items: center;
+}
+
+.grbNato {
+  height: 140px;
+  max-height: 140px;
+}
+
+.grbSv {
+  height: 200px;
+  max-height: 200px;
+}
+
+.listLogoSect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kforCollection {
+  padding-top: 50px;
+}
