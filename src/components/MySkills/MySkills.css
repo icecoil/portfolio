@@ -16,7 +16,6 @@
   top: 0px;
   transition: 0.2s top ease;
   position: relative;
-  border-radius: 14px;
 }
 
 .certImages a:hover {
