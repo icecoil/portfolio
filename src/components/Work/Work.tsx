@@ -13,15 +13,15 @@ const Work = () => {
           <h2>Slovenian Armed Forces</h2>
           <ol className="workList">
             <li className="upperLvlLi">
-              2011 - 2016: Infantry Rifleman
+              2011 - 2017: Infantry Rifleman
               <ul>
                 <li>2015/2016: Peacekeeping mission in Kosovo (KFOR32)</li>
               </ul>
             </li>
             <li className="upperLvlLi">
-              2016 - 2022: Infantry Rifleman + Combat Life Saver
+              2017 - 2022: Infantry Rifleman + Combat Life Saver
               <ul>
-                <li>2016: Combat Life Saver course</li>
+                <li>2017: Combat Life Saver course</li>
                 <li>2018/2019: Peacekeeping mission in Kosovo (KFOR38)</li>
                 <li>2021/2022: IT specialist course</li>
               </ul>
@@ -32,6 +32,12 @@ const Work = () => {
                 <li>
                   2023: NATO's Coalition Warrior Interoperability Exercise
                   (CWIX)
+                </li>
+                <li>
+                  2023: Course for System Administrator level 2 for the
+                  Communication and Information System for supporting business
+                  processes in the Ministry of Defence and Command and Control
+                  in the Slovenian Armed Forces (KIS PINK)
                 </li>
                 <li>
                   2023: Course for operators of the Radio Relay system Cambium
