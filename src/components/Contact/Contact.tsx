@@ -24,7 +24,11 @@ const Contact = () => {
         </p>
       </div>
       <div className="contactLinks">
-        <a className="euPass">
+        <a
+          target="_blanc"
+          href="https://europa.eu/europass/eportfolio/screen/profile?lang=en"
+          className="euPass"
+        >
           <img src={eupass} alt="Europass" />
         </a>
         <a

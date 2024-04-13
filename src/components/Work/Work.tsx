@@ -40,7 +40,7 @@ const Work = () => {
                   in the Slovenian Armed Forces (KIS PINK)
                 </li>
                 <li>
-                  2023: Course for operators of the Radio Relay system Cambium
+                  2023: Course for operators of the Radio Relay System Cambium
                   Networks PTP700
                 </li>
               </ul>
