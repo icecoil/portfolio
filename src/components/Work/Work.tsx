@@ -19,15 +19,15 @@ const Work = () => {
               </ul>
             </li>
             <li className="upperLvlLi">
-              2017 - 2022: Infantry Rifleman + Combat Life Saver
+              2017 - 2022: Infantry Rifleman + Combat Lifesaver
               <ul>
-                <li>2017: Combat Life Saver course</li>
+                <li>2017: Combat Lifesaver course</li>
                 <li>2018/2019: Peacekeeping mission in Kosovo (KFOR38)</li>
                 <li>2021/2022: IT specialist course</li>
               </ul>
             </li>
             <li className="upperLvlLi">
-              2022 - present day: Combat Life Saver + IT Specialist
+              2022 - present day: Combat Lifesaver + IT Specialist
               <ul>
                 <li>
                   2023: NATO's Coalition Warrior Interoperability Exercise

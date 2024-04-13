@@ -7,9 +7,9 @@ const About = () => {
     <div>
       <h1>About</h1>
       <p>
-        My name is Rok. I am a Combat Life Saver and IT Specialist in the
-        Slovenian Army. Apart from that, I am a software engineer and an
-        enthusiastic angler and barbecuer.
+        My name is Rok. I am a Combat Lifesaver and IT Specialist in the
+        Slovenian Army. Apart from that, I am a Software Engineer and an
+        enthusiastic Angler and Barbecuer.
       </p>
       <img
         className="aboutImages"
