@@ -12,20 +12,20 @@
   border-radius: 6px;
 }
 
-.navigation.dark-mode button {
+.navigation.darkMode button {
   background-color: #000000;
   color: #ffffff;
 }
 
-.navigation.navigation.dark-mode button:hover {
+.navigation.navigation.darkMode button:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.navigation.light-mode button {
+.navigation.lightMode button {
   background-color: #ffffff;
   color: #000000;
 }
 
-.navigation.light-mode button:hover {
+.navigation.lightMode button:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }

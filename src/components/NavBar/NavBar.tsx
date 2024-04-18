@@ -13,7 +13,7 @@ interface NavBarProps {
 
 const NavBar = ({ items, isDarkMode }: NavBarProps) => {
   return (
-    <nav className={`navigation ${isDarkMode ? "dark-mode" : "light-mode"}`}>
+    <nav className={`navigation ${isDarkMode ? "darkMode" : "lightMode"}`}>
       {items.map((item, indx) => {
         return (
           <button key={indx} onClick={item.onClick}>

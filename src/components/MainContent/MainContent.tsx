@@ -12,7 +12,7 @@ interface MainContentProps {
 
 const MainContent = ({ selectedContent, isDarkMode }: MainContentProps) => {
   return (
-    <div className={`mainContent ${isDarkMode ? "dark-mode" : "light-mode"}`}>
+    <div className={`mainContent ${isDarkMode ? "darkMode" : "lightMode"}`}>
       {selectedContent === "about" && <About />}
       {selectedContent === "mySkills" && <MySkills />}
       {selectedContent === "work" && <Work />}

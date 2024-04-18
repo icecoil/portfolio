@@ -9,20 +9,20 @@
   box-sizing: border-box;
 }
 
-.mainContent.dark-mode {
+.mainContent.darkMode {
   background-color: #252525;
   color: #ffffff;
 }
 
-.mainContent.light-mode {
+.mainContent.lightMode {
   background-color: #ffffff;
   color: #000000;
 }
 
-.mainContent.dark-mode a {
+.mainContent.darkMode a {
   color: #ffffff;
 }
 
-.mainContent.light-mode a {
+.mainContent.lightMode a {
   color: #000000;
 }

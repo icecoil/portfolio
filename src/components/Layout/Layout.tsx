@@ -14,11 +14,11 @@ const Layout = () => {
   };
 
   return (
-    <div className={`layout ${isDarkMode ? "dark-mode" : "light-mode"}`}>
+    <div className={`layout ${isDarkMode ? "darkMode" : "lightMode"}`}>
       <Sidebar selectContent={setContent} isDarkMode={isDarkMode} />
       <MainContent selectedContent={content} isDarkMode={isDarkMode} />
       <button
-        className={`modeBt ${isDarkMode ? "dark-mode" : "light-mode"}`}
+        className={`modeBt ${isDarkMode ? "darkMode" : "lightMode"}`}
         onClick={toggleDarkMode}
       >
         {isDarkMode ? "Light Mode" : "Dark Mode"}

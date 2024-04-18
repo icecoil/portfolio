@@ -29,7 +29,7 @@ const Sidebar = ({ selectContent, isDarkMode }: SidebarProps) => {
     },
   ];
   return (
-    <div className={`sidebar ${isDarkMode ? "dark-mode" : "light-mode"}`}>
+    <div className={`sidebar ${isDarkMode ? "darkMode" : "lightMode"}`}>
       <p className="capitalR">R</p>
       <h3>Rok Krajnc</h3>
       <p>Web Developer</p>
