@@ -6,9 +6,10 @@ interface SidebarProps {
   selectContent: (
     contentName: "about" | "mySkills" | "work" | "contact"
   ) => void;
+  isDarkMode: boolean;
 }
 
-const Sidebar = ({ selectContent }: SidebarProps) => {
+const Sidebar = ({ selectContent, isDarkMode }: SidebarProps) => {
   const navItems: NavBarItem[] = [
     {
       label: "About",
@@ -28,11 +29,11 @@ const Sidebar = ({ selectContent }: SidebarProps) => {
     },
   ];
   return (
-    <div className="sidebar">
+    <div className={`sidebar ${isDarkMode ? "dark-mode" : "light-mode"}`}>
       <p className="capitalR">R</p>
       <h3>Rok Krajnc</h3>
       <p>Web Developer</p>
-      <NavBar items={navItems} />
+      <NavBar items={navItems} isDarkMode={isDarkMode} />
     </div>
   );
 };

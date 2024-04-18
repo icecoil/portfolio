@@ -1,5 +1,40 @@
 .layout {
   display: flex;
   align-items: flex-start;
-  background-color: #252525;
+}
+
+.layout.dark-mode {
+  background-color: #151515;
+  color: #ffffff;
+}
+
+.layout.light-mode {
+  background-color: #b5b5b5;
+  color: #000000;
+}
+
+.modeBt {
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 0 0 30 30;
+  margin: 16px;
+}
+
+.layout.dark-mode button {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.layout.dark-mode button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.layout.light-mode button {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.layout.light-mode button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }

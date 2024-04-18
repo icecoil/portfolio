@@ -7,11 +7,22 @@ const Layout = () => {
   const [content, setContent] = useState<
     "about" | "mySkills" | "work" | "contact"
   >("about");
+  const [isDarkMode, setIsDarkMode] = useState(true);
+
+  const toggleDarkMode = () => {
+    setIsDarkMode((prevMode) => !prevMode);
+  };
 
   return (
-    <div className="layout">
-      <Sidebar selectContent={setContent} />
-      <MainContent selectedContent={content} />
+    <div className={`layout ${isDarkMode ? "dark-mode" : "light-mode"}`}>
+      <Sidebar selectContent={setContent} isDarkMode={isDarkMode} />
+      <MainContent selectedContent={content} isDarkMode={isDarkMode} />
+      <button
+        className={`modeBt ${isDarkMode ? "dark-mode" : "light-mode"}`}
+        onClick={toggleDarkMode}
+      >
+        {isDarkMode ? "Light Mode" : "Dark Mode"}
+      </button>
     </div>
   );
 };
