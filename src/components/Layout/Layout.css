@@ -19,6 +19,7 @@
   border-radius: 6px;
   padding: 0 0 30 30;
   margin: 16px;
+  white-space: nowrap;
 }
 
 .layout.darkMode button {
