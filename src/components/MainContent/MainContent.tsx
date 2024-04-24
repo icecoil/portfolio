@@ -7,11 +7,12 @@ import "./MainContent.css";
 
 interface MainContentProps {
   selectedContent: "about" | "mySkills" | "work" | "contact";
+  isDarkMode: boolean;
 }
 
-const MainContent = ({ selectedContent }: MainContentProps) => {
+const MainContent = ({ selectedContent, isDarkMode }: MainContentProps) => {
   return (
-    <div className="mainContent">
+    <div className={`mainContent ${isDarkMode ? "darkMode" : "lightMode"}`}>
       {selectedContent === "about" && <About />}
       {selectedContent === "mySkills" && <MySkills />}
       {selectedContent === "work" && <Work />}

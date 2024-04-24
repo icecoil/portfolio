@@ -1,9 +1,9 @@
 import React from "react";
 import "./Contact.css";
-import eupass from "../../portfolio_pics/euPassIcon.png";
-import linkedIn from "../../portfolio_pics/linkedinIcon.png";
-import gitHub from "../../portfolio_pics/gitIcon.png";
-import fb from "../../portfolio_pics/fbIcon.png";
+import eupass from "../../images/euPassIcon.png";
+import linkedIn from "../../images/linkedinIcon.png";
+import gitHub from "../../images/gitIcon.png";
+import fb from "../../images/fbIcon.png";
 
 const Contact = () => {
   return (
@@ -12,7 +12,7 @@ const Contact = () => {
       <div>
         <p>Rok Krajnc</p>
         <p>Knafelčeva ulica 45</p>
-        <p>2000 Lovrenc na Pohorju</p>
+        <p>2000 Maribor</p>
         <p>Slovenija</p>
       </div>
       <div>

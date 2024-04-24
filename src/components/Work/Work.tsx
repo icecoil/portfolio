@@ -1,8 +1,8 @@
 import React from "react";
 import "./Work.css";
-import imgCollectionKfor from "../../portfolio_pics/imgCollectionKfor.jpg";
-import natoLogo from "../../portfolio_pics/NATO_logo.svg";
-import grbSv from "../../portfolio_pics/Grb_sv.png";
+import imgCollectionKfor from "../../images/imgCollectionKfor.jpg";
+import natoLogo from "../../images/NATO_logo.svg";
+import grbSv from "../../images/Grb_sv.png";
 
 const Work = () => {
   return (
