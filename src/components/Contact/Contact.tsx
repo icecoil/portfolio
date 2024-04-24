@@ -12,7 +12,7 @@ const Contact = () => {
       <div>
         <p>Rok Krajnc</p>
         <p>Knafelčeva ulica 45</p>
-        <p>2000 Lovrenc na Pohorju</p>
+        <p>2000 Maribor</p>
         <p>Slovenija</p>
       </div>
       <div>
