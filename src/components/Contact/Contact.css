@@ -23,6 +23,20 @@
 }
 
 .contactLinks img {
-  height: 50px;
-  max-height: 50px;
+  height: 40px;
+  max-height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .contactLinks {
+    flex-wrap: wrap;
+    height: 25px;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contactLinks img {
+    height: 25px;
+  }
 }
