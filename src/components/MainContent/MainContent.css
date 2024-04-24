@@ -1,12 +1,28 @@
 .mainContent {
-  background-color: #353535;
   min-height: 100vh;
   height: 100%;
   flex-grow: 1;
-  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
   box-sizing: border-box;
+}
+
+.mainContent.darkMode {
+  background-color: #252525;
+  color: #ffffff;
+}
+
+.mainContent.lightMode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.mainContent.darkMode a {
+  color: #ffffff;
+}
+
+.mainContent.lightMode a {
+  color: #000000;
 }

@@ -9,5 +9,12 @@
 .sidebar {
   min-height: 100vh;
   height: 100%;
+}
+
+.sidebar.dark-mode {
   color: #ffffff;
+}
+
+.sidebar.light-mode {
+  color: #000000;
 }

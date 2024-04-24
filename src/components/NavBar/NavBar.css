@@ -6,14 +6,26 @@
 }
 
 .navigation button {
-  background-color: black;
-  color: #ffffff;
   font-size: 16px;
   padding: 16px;
   font-weight: 600;
   border-radius: 6px;
 }
 
-.navigation button:hover {
+.navigation.darkMode button {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navigation.navigation.darkMode button:hover {
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navigation.lightMode button {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.navigation.lightMode button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }

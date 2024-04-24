@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Sidebar.css";
 import NavBar, { NavBarItem } from "../NavBar/NavBar";
+import ThemeContext from "../../context/ThemeContext/ThemeContext";
 
 interface SidebarProps {
   selectContent: (
@@ -9,6 +10,7 @@ interface SidebarProps {
 }
 
 const Sidebar = ({ selectContent }: SidebarProps) => {
+  const { toggleTheme, theme } = useContext(ThemeContext);
   const navItems: NavBarItem[] = [
     {
       label: "About",
@@ -28,11 +30,12 @@ const Sidebar = ({ selectContent }: SidebarProps) => {
     },
   ];
   return (
-    <div className="sidebar">
+    <div className={`sidebar ${theme === "dark" ? "darkMode" : "lightMode"}`}>
       <p className="capitalR">R</p>
       <h3>Rok Krajnc</h3>
       <p>Web Developer</p>
-      <NavBar items={navItems} />
+      <NavBar items={navItems} isDarkMode={theme === "dark"} />
+      <button onClick={toggleTheme}>Toggle Dark/Light Mode</button>
     </div>
   );
 };

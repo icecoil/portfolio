@@ -1,9 +1,9 @@
 import React from "react";
-import certHtml from "../../portfolio_pics/certHTML.png";
-import certCss from "../../portfolio_pics/certCSS.png";
-import certJs from "../../portfolio_pics/certJS.png";
-import certJsI from "../../portfolio_pics/certJSI.png";
-import certReact from "../../portfolio_pics/certReact.png";
+import certHtml from "../../images/certHTML.png";
+import certCss from "../../images/certCSS.png";
+import certJs from "../../images/certJS.png";
+import certJsI from "../../images/certJSI.png";
+import certReact from "../../images/certReact.png";
 import "./MySkills.css";
 
 const MySkills = () => {

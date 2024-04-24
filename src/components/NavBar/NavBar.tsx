@@ -8,11 +8,12 @@ export interface NavBarItem {
 
 interface NavBarProps {
   items: NavBarItem[];
+  isDarkMode: boolean;
 }
 
-const NavBar = ({ items }: NavBarProps) => {
+const NavBar = ({ items, isDarkMode }: NavBarProps) => {
   return (
-    <nav className="navigation">
+    <nav className={`navigation ${isDarkMode ? "darkMode" : "lightMode"}`}>
       {items.map((item, indx) => {
         return (
           <button key={indx} onClick={item.onClick}>
