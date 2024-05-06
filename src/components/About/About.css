@@ -1,4 +1,9 @@
 .aboutImages {
-  max-width: 100%;
+  display: flex;
+  gap: 40px;
+}
+
+.aboutImages img {
+  max-width: 500px;
   border-radius: 16px;
 }
