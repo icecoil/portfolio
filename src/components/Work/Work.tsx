@@ -1,6 +1,10 @@
 import React from "react";
 import "./Work.css";
-import imgCollectionKfor from "../../images/imgCollectionKfor.jpg";
+import kfor1 from "../../images/kfor1.jpg";
+import kfor2 from "../../images/kfor2.jpg";
+import kfor3 from "../../images/kfor3.jpg";
+import kfor4 from "../../images/kfor4.jpg";
+import kfor5 from "../../images/kfor5.png";
 import natoLogo from "../../images/NATO_logo.svg";
 import grbSv from "../../images/Grb_sv.png";
 
@@ -54,12 +58,12 @@ const Work = () => {
           <img src={grbSv} alt="Slovenian Armed Forces" className="grbSv" />
         </div>
       </div>
-      <div>
-        <img
-          src={imgCollectionKfor}
-          alt="Peacekeeping Missions in Kosovo"
-          className="kforCollection"
-        />
+      <div className="workImages">
+        <img src={kfor1} alt="Bonding with US scouts" />
+        <img src={kfor2} alt="Pyrophobia exercise" />
+        <img src={kfor3} alt="Teaching CLS SOPs" />
+        <img src={kfor4} alt="Dancon March" />
+        <img src={kfor5} alt="Shooting exercise" />
       </div>
     </div>
   );

@@ -1,6 +1,18 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 h2 {
   padding-top: 20px;
   text-align: left;
+}
+
+.workList {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
 }
 
 .upperLvlLi {
@@ -39,18 +51,19 @@ h2 {
 
 .listLogoSect {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: start;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
-.kforCollection {
-  margin-top: 50px;
-  border-radius: 16px;
-  max-width: 100%;
-}
-
-.workList {
+.workImages {
   display: flex;
-  gap: 16px;
-  flex-direction: column;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.workImages img {
+  max-height: 300px;
+  border-radius: 16px;
 }
