@@ -1,5 +1,7 @@
 import React from "react";
-import imgCollectionAbt from "../../images/imgCollectionAbt.jpg";
+import abtImg1 from "../../images/abt1.jpg";
+import abtImg2 from "../../images/abt2.jpg";
+import abtImg3 from "../../images/abt3.jpg";
 import "./About.css";
 
 const About = () => {
@@ -11,11 +13,11 @@ const About = () => {
         Slovenian Army. Apart from that, I am a Software Engineer and an
         enthusiastic Angler and Barbecuer.
       </p>
-      <img
-        className="aboutImages"
-        src={imgCollectionAbt}
-        alt="Roks collection"
-      />
+      <div className="aboutImages">
+        <img src={abtImg1} alt="Sobra presentation for civilians" />
+        <img src={abtImg2} alt="Dentex caught on Korcula" />
+        <img src={abtImg3} alt="Grilling own prey for the inlaws" />
+      </div>
     </div>
   );
 };

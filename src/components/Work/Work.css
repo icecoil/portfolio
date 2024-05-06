@@ -24,15 +24,16 @@ h2 {
   justify-content: end;
   gap: 20px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .grbNato {
-  height: 140px;
+  height: 80px;
   max-height: 140px;
 }
 
 .grbSv {
-  height: 200px;
+  height: 140px;
   max-height: 200px;
 }
 

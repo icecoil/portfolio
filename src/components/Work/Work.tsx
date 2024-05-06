@@ -6,7 +6,7 @@ import grbSv from "../../images/Grb_sv.png";
 
 const Work = () => {
   return (
-    <div>
+    <div className="work">
       <h1>Work</h1>
       <div className="listLogoSect">
         <div>
@@ -35,12 +35,14 @@ const Work = () => {
                 </li>
                 <li>
                   2023: Course for System Administrator level 2 for the
-                  Communication and Information System for supporting business
-                  processes in the Ministry of Defence and Command and Control
-                  in the Slovenian Armed Forces (KIS PINK)
+                  Communication <br></br> and Information System for supporting
+                  business processes in the <br></br> Ministry of Defence and
+                  Command and Control in the Slovenian<br></br> Armed Forces
+                  (KIS PINK)
                 </li>
                 <li>
-                  2023: Course for operators of the Radio Relay System Cambium
+                  2023: Course for operators of the Radio Relay System Cambium{" "}
+                  <br></br>
                   Networks PTP700
                 </li>
               </ul>
