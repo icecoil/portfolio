@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contact.css";
+import classes from "./Contact.module.scss";
 import eupass from "../../images/euPassIcon.png";
 import linkedIn from "../../images/linkedinIcon.png";
 import gitHub from "../../images/gitIcon.png";
@@ -7,7 +7,7 @@ import fb from "../../images/fbIcon.png";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className={classes.contact}>
       <h1>Contact</h1>
       <div>
         <p>Rok Krajnc</p>
@@ -23,7 +23,7 @@ const Contact = () => {
           Tel.: <a href="tel:+38670675385">+38670675385</a>
         </p>
       </div>
-      <div className="contactLinks">
+      <div className={classes.contactLinks}>
         <a
           target="_blanc"
           href="https://europa.eu/europass/eportfolio/screen/profile?lang=en"

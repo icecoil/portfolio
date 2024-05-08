@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
-import "./Sidebar.css";
+import classes from "./Sidebar.module.scss";
 import NavBar, { NavBarItem } from "../NavBar/NavBar";
 import ThemeContext from "../../context/ThemeContext/ThemeContext";
+import classNames from "classnames";
 
 interface SidebarProps {
   selectContent: (
@@ -29,9 +30,15 @@ const Sidebar = ({ selectContent }: SidebarProps) => {
       onClick: () => selectContent("contact"),
     },
   ];
+
   return (
-    <div className={`sidebar ${theme === "dark" ? "darkMode" : "lightMode"}`}>
-      <p className="capitalR">R</p>
+    <div
+      className={classNames(classes.sidebar, {
+        [classes.darkMode]: theme === "dark",
+        [classes.lightMode]: theme === "light",
+      })}
+    >
+      <p className={classes.capitalR}>R</p>
       <h3>Rok Krajnc</h3>
       <p>Web Developer</p>
       <NavBar items={navItems} isDarkMode={theme === "dark"} />
