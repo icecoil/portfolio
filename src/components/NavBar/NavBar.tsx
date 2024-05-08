@@ -1,5 +1,6 @@
 import React from "react";
-import "./NavBar.css";
+import classes from "./NavBar.module.scss";
+import classNames from "classnames";
 
 export interface NavBarItem {
   label: string;
@@ -13,7 +14,12 @@ interface NavBarProps {
 
 const NavBar = ({ items, isDarkMode }: NavBarProps) => {
   return (
-    <nav className={`navigation ${isDarkMode ? "darkMode" : "lightMode"}`}>
+    <nav
+      className={classNames(classes.navigation, {
+        [classes.darkMode]: isDarkMode,
+        [classes.lightMode]: !isDarkMode,
+      })}
+    >
       {items.map((item, indx) => {
         return (
           <button key={indx} onClick={item.onClick}>

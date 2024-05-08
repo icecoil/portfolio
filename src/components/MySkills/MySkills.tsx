@@ -4,13 +4,13 @@ import certCss from "../../images/certCSS.png";
 import certJs from "../../images/certJS.png";
 import certJsI from "../../images/certJSI.png";
 import certReact from "../../images/certReact.png";
-import "./MySkills.css";
+import classes from "./MySkills.module.scss";
 
 const MySkills = () => {
   return (
-    <div className="mySkills">
+    <div className={classes.mySkills}>
       <h1>My Skills</h1>
-      <div className="certImages">
+      <div className={classes.certImages}>
         <a
           target="_blanc"
           href="https://www.sololearn.com/certificates/CC-GSJLLB62"

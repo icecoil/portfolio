@@ -1,5 +1,5 @@
 import React from "react";
-import "./Work.css";
+import classes from "./Work.module.scss";
 import kfor1 from "../../images/kfor1.jpg";
 import kfor2 from "../../images/kfor2.jpg";
 import kfor3 from "../../images/kfor3.jpg";
@@ -10,19 +10,19 @@ import grbSv from "../../images/Grb_sv.png";
 
 const Work = () => {
   return (
-    <div className="work">
+    <div className={classes.work}>
       <h1>Work</h1>
-      <div className="listLogoSect">
+      <div className={classes.listLogoSect}>
         <div>
           <h2>Slovenian Armed Forces</h2>
-          <ol className="workList">
-            <li className="upperLvlLi">
+          <ol className={classes.workList}>
+            <li className={classes.upperLvlLi}>
               2011 - 2017: Infantry Rifleman
               <ul>
                 <li>2015/2016: Peacekeeping mission in Kosovo (KFOR32)</li>
               </ul>
             </li>
-            <li className="upperLvlLi">
+            <li className={classes.upperLvlLi}>
               2017 - 2022: Infantry Rifleman + Combat Lifesaver
               <ul>
                 <li>2017: Combat Lifesaver course</li>
@@ -30,7 +30,7 @@ const Work = () => {
                 <li>2021/2022: IT specialist course</li>
               </ul>
             </li>
-            <li className="upperLvlLi">
+            <li className={classes.upperLvlLi}>
               2022 - present day: Combat Lifesaver + IT Specialist
               <ul>
                 <li>
@@ -53,12 +53,16 @@ const Work = () => {
             </li>
           </ol>
         </div>
-        <div className="natoSvLogo">
-          <img src={natoLogo} alt="Nato" className="grbNato" />
-          <img src={grbSv} alt="Slovenian Armed Forces" className="grbSv" />
+        <div className={classes.natoSvLogo}>
+          <img src={natoLogo} alt="Nato" className={classes.grbNato} />
+          <img
+            src={grbSv}
+            alt="Slovenian Armed Forces"
+            className={classes.grbSv}
+          />
         </div>
       </div>
-      <div className="workImages">
+      <div className={classes.workImages}>
         <img src={kfor1} alt="Bonding with US scouts" />
         <img src={kfor2} alt="Pyrophobia exercise" />
         <img src={kfor3} alt="Teaching CLS SOPs" />

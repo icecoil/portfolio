@@ -1,0 +1,27 @@
+.mySkills {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.certImages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+
+  a {
+    display: inline-block;
+    top: 0px;
+    transition: 0.2s top ease;
+    position: relative;
+
+    &:hover {
+      top: -4px;
+    }
+  }
+
+  img {
+    max-width: 300px;
+  }
+}

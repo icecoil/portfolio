@@ -1,0 +1,38 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+
+  .contactLinks {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+      flex-wrap: wrap;
+      height: 25px;
+      gap: 30px;
+    }
+
+    a {
+      display: inline-block;
+      top: 0px;
+      transition: 0.2s top ease;
+      position: relative;
+
+      &:hover {
+        top: -4px;
+      }
+    }
+
+    img {
+      height: 40px;
+      max-height: 40px;
+
+      @media screen and (max-width: 768px) {
+        height: 25px;
+      }
+    }
+  }
+}
