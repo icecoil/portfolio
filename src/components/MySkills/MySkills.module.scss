@@ -9,19 +9,19 @@
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-}
 
-.certImages a {
-  display: inline-block;
-  top: 0px;
-  transition: 0.2s top ease;
-  position: relative;
-}
+  a {
+    display: inline-block;
+    top: 0px;
+    transition: 0.2s top ease;
+    position: relative;
 
-.certImages a:hover {
-  top: -4px;
-}
+    &:hover {
+      top: -4px;
+    }
+  }
 
-.certImages img {
-  max-width: 300px;
+  img {
+    max-width: 300px;
+  }
 }

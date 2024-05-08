@@ -7,22 +7,22 @@
   justify-content: center;
   padding: 20px;
   box-sizing: border-box;
-}
 
-.mainContent.darkMode {
-  background-color: #252525;
-  color: #ffffff;
-}
+  &.darkMode {
+    background-color: #252525;
+    color: #ffffff;
 
-.mainContent.lightMode {
-  background-color: #ffffff;
-  color: #000000;
-}
+    a {
+      color: #ffffff;
+    }
+  }
 
-.mainContent.darkMode a {
-  color: #ffffff;
-}
+  &.lightMode {
+    background-color: #ffffff;
+    color: #000000;
 
-.mainContent.lightMode a {
-  color: #000000;
+    a {
+      color: #000000;
+    }
+  }
 }
