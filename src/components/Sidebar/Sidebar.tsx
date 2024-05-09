@@ -3,6 +3,8 @@ import classes from "./Sidebar.module.scss";
 import NavBar, { NavBarItem } from "../NavBar/NavBar";
 import ThemeContext from "../../context/ThemeContext/ThemeContext";
 import classNames from "classnames";
+import darkMode from "../../images/icons/darkModeIcon.svg";
+import lightMode from "../../images/icons/lightModeIcon.svg";
 
 interface SidebarProps {
   selectContent: (
@@ -42,7 +44,12 @@ const Sidebar = ({ selectContent }: SidebarProps) => {
       <h3>Rok Krajnc</h3>
       <p>Web Developer</p>
       <NavBar items={navItems} isDarkMode={theme === "dark"} />
-      <button onClick={toggleTheme}>Toggle Dark/Light Mode</button>
+      <button className={classes.themeBtn} onClick={toggleTheme}>
+        <img
+          src={theme === "dark" ? darkMode : lightMode}
+          alt="toggle mode icon"
+        />
+      </button>
     </div>
   );
 };

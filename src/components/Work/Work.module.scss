@@ -22,11 +22,11 @@ h2 {
   list-style-type: disc;
   list-style-position: outside;
   text-align: left;
-}
 
-.upperLvlLi ul {
-  font-size: 16px;
-  font-weight: 400;
+  ul {
+    font-size: 16px;
+    font-weight: 400;
+  }
 }
 
 .natoSvLogo {
@@ -61,11 +61,12 @@ h2 {
   gap: 40px;
   flex-wrap: wrap;
   justify-content: center;
-}
 
-.workImages img {
-  max-height: 300px;
-  border-radius: 16px;
+  img {
+    max-height: 300px;
+    max-width: 100%;
+    border-radius: 16px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
