@@ -1,9 +1,9 @@
 import React from "react";
 import classes from "./Contact.module.scss";
 import eupass from "../../images/euPassIcon.png";
-import linkedIn from "../../images/linkedinIcon.png";
-import gitHub from "../../images/gitIcon.png";
-import fb from "../../images/fbIcon.png";
+import linkedIn from "../../images/icons/linkedinIcon.png";
+import gitHub from "../../images/icons/gitIcon.png";
+import fb from "../../images/icons/fbIcon.png";
 
 const Contact = () => {
   return (
