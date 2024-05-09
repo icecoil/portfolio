@@ -1,9 +1,13 @@
 .aboutImages {
   display: flex;
   gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
 
   img {
+    width: 100%;
     max-width: 500px;
+    min-width: 0;
     border-radius: 16px;
   }
 }
