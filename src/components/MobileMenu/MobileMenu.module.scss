@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+
+  .hamburgerBtn {
+    position: fixed;
+    left: 16px;
+    top: 16px;
+    border-radius: 6px;
+    padding-top: 4px;
+    z-index: 2;
+
+    img {
+      max-width: 30px;
+      height: auto;
+    }
+  }
+
+  .mobileSidebar {
+    @media screen and (max-width: 768px) {
+      position: fixed;
+      overflow: auto;
+      z-index: 1;
+    }
+  }
+}
