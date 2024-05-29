@@ -4,6 +4,7 @@ import MainContent from "../MainContent/MainContent";
 import classes from "./Layout.module.scss";
 import ThemeContext from "../../context/ThemeContext/ThemeContext";
 import classNames from "classnames";
+import MobileMenu from "../MobileMenu/MobileMenu";
 
 const Layout = () => {
   const [content, setContent] = useState<
@@ -20,7 +21,8 @@ const Layout = () => {
         [classes.lightMode]: !isDarkMode,
       })}
     >
-      <Sidebar selectContent={setContent} />
+      <MobileMenu selectContent={setContent} className={classes.mobileMenu} />
+      <Sidebar selectContent={setContent} className={classes.sidebar} />
       <MainContent selectedContent={content} isDarkMode={isDarkMode} />
     </div>
   );

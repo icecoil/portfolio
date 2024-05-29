@@ -10,9 +10,10 @@ interface SidebarProps {
   selectContent: (
     contentName: "about" | "mySkills" | "work" | "contact"
   ) => void;
+  className?: string;
 }
 
-const Sidebar = ({ selectContent }: SidebarProps) => {
+const Sidebar = ({ selectContent, className }: SidebarProps) => {
   const { toggleTheme, theme } = useContext(ThemeContext);
   const navItems: NavBarItem[] = [
     {
@@ -35,7 +36,7 @@ const Sidebar = ({ selectContent }: SidebarProps) => {
 
   return (
     <div
-      className={classNames(classes.sidebar, {
+      className={classNames(classes.sidebar, className, {
         [classes.darkMode]: theme === "dark",
         [classes.lightMode]: theme === "light",
       })}
