@@ -2,12 +2,12 @@
   position: relative;
 
   .hamburgerBtn {
-    position: absolute;
+    position: fixed;
     left: 16px;
     top: 16px;
     border-radius: 6px;
     padding-top: 4px;
-    z-index: 1;
+    z-index: 2;
 
     img {
       max-width: 30px;
@@ -17,7 +17,9 @@
 
   .mobileSidebar {
     @media screen and (max-width: 768px) {
-      position: absolute;
+      position: fixed;
+      overflow: auto;
+      z-index: 1;
     }
   }
 }
