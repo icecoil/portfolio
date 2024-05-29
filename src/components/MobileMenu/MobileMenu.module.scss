@@ -13,4 +13,10 @@
       height: auto;
     }
   }
+
+  .mobileSidebar {
+    @media screen and (max-width: 768px) {
+      position: absolute;
+    }
+  }
 }

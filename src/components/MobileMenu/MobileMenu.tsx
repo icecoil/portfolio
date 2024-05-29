@@ -28,7 +28,12 @@ const MobileMenu = ({ selectContent, className }: MobileMenuProps) => {
           alt="hamburger icon"
         />
       </button>
-      {isOpen && <Sidebar selectContent={selectContent} />}
+      {isOpen && (
+        <Sidebar
+          selectContent={selectContent}
+          className={classes.mobileSidebar}
+        />
+      )}
     </div>
   );
 };
