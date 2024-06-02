@@ -43,7 +43,8 @@ const MySkills = () => {
         </a>
       </div>
       <p>
-        Moderate understanding of HTML, CSS and Javascript. Learning ReactJS.
+        Proficient in HTML, CSS and Javascript. Learning ReactJS, TypeScript,
+        ECMAScript and Sass.
       </p>
     </div>
   );
